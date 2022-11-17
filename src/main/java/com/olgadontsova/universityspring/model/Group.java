@@ -21,4 +21,5 @@ public class Group {
     @OneToMany
     private List<Discipline> disciplines;
     //
+
 }
