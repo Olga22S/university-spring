@@ -20,4 +20,5 @@ public class Group {
     private List<Student> students;
     @OneToMany
     private List<Discipline> disciplines;
+    //
 }
