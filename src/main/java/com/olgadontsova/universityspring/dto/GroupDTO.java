@@ -5,11 +5,11 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Group {
+public class GroupDTO {
 
     private String name;
     private int course;
-    private Student elder;
-    private List<Student> students;
-    private List<Discipline> disciplines;
+    private StudentDTO elder;
+    private List<StudentDTO> students;
+    private List<DisciplineDTO> disciplines;
 }

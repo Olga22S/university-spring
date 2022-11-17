@@ -6,17 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 @Data
-public class StudentAssessment {
+public class StudentAssessmentDTO {
 
-    private Map<Discipline, List<DisciplineAssessment>> assessment;
-
-    @Data
-    class DisciplineAssessment{
-
-        private int semester;
-        private List<Integer> scores;
-        private int exam;
-        private boolean isExam;
-        private boolean noScoreExam;
-    }
+    private int course;
+    private int semester;
+    private Map<DisciplineDTO, List<DisciplineAssessmentDTO>> assessments;
 }

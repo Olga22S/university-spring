@@ -1,2 +1,5 @@
-package com.olgadontsova.universityspring.dto;public class AcademicJournal {
+package com.olgadontsova.universityspring.dto;
+
+public class AcademicJournal {
+
 }

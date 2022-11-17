@@ -1,6 +1,6 @@
 package com.olgadontsova.universityspring.dto;
 
-public enum Role {
+public enum RoleDTO {
 
     ADMIN,
     TEACHER,

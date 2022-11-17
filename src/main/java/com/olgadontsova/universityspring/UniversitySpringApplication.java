@@ -1,4 +1,4 @@
-package com.example.universityspring;
+package com.olgadontsova.universityspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

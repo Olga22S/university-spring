@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Faculty {
+public class FacultyDTO {
 
     private String name;
-    private Teacher dean;
-    private List<Group> groups;
+    private TeacherDTO dean;
+    private List<GroupDTO> groups;
 }
