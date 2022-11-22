@@ -10,5 +10,5 @@ public class StudentAssessmentDTO {
 
     private int course;
     private int semester;
-    private Map<DisciplineDTO, List<DisciplineAssessmentDTO>> assessments;
+    private List<DisciplineAssessmentDTO> assessments;
 }
